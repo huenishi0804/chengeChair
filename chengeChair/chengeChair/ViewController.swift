@@ -23,9 +23,14 @@ class ViewController: UIViewController {
             //ドラッグする指を追う
             label1.center = sender.location(in: self.view)
         case .ended:
-//            if
+            //もし赤の座席ラベルに近い場合置き換わる
+            if label1.center.x>500, label1.center.x<600, label1.center.y>400, label1.center.y<500 {
+                label1.frame = CGRect(x:500, y:400, width:100, height: 100)
+                label2.frame = CGRect(x:200, y:400, width:100, height: 100)
+            } else {
             //初期位置に戻る
-                label1.frame = CGRect(x:200, y:462, width:100, height: 100)
+                label1.frame = CGRect(x:200, y:400, width:100, height: 100)
+        }
         default:
             break
         }
