@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C77594601FEA2F3B00919FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C775945F1FEA2F3B00919FE3 /* AppDelegate.swift */; };
+		C77594621FEA2F3B00919FE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77594611FEA2F3B00919FE3 /* ViewController.swift */; };
+		C77594651FEA2F3B00919FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77594631FEA2F3B00919FE3 /* Main.storyboard */; };
+		C77594671FEA2F3B00919FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77594661FEA2F3B00919FE3 /* Assets.xcassets */; };
+		C775946A1FEA2F3B00919FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77594681FEA2F3B00919FE3 /* LaunchScreen.storyboard */; };
+		C77594751FEA2F3B00919FE3 /* chengeChairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77594741FEA2F3B00919FE3 /* chengeChairTests.swift */; };
+		C77594801FEA2F3B00919FE3 /* chengeChairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C775947F1FEA2F3B00919FE3 /* chengeChairUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C77594711FEA2F3B00919FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77594541FEA2F3B00919FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C775945B1FEA2F3B00919FE3;
+			remoteInfo = chengeChair;
+		};
+		C775947C1FEA2F3B00919FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77594541FEA2F3B00919FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C775945B1FEA2F3B00919FE3;
+			remoteInfo = chengeChair;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C775945C1FEA2F3B00919FE3 /* chengeChair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chengeChair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C775945F1FEA2F3B00919FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C77594611FEA2F3B00919FE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C77594641FEA2F3B00919FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C77594661FEA2F3B00919FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C77594691FEA2F3B00919FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C775946B1FEA2F3B00919FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77594701FEA2F3B00919FE3 /* chengeChairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chengeChairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77594741FEA2F3B00919FE3 /* chengeChairTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chengeChairTests.swift; sourceTree = "<group>"; };
+		C77594761FEA2F3B00919FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C775947B1FEA2F3B00919FE3 /* chengeChairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chengeChairUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C775947F1FEA2F3B00919FE3 /* chengeChairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chengeChairUITests.swift; sourceTree = "<group>"; };
+		C77594811FEA2F3B00919FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C77594591FEA2F3B00919FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C775946D1FEA2F3B00919FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77594781FEA2F3B00919FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C77594531FEA2F3B00919FE3 = {
+			isa = PBXGroup;
+			children = (
+				C775945E1FEA2F3B00919FE3 /* chengeChair */,
+				C77594731FEA2F3B00919FE3 /* chengeChairTests */,
+				C775947E1FEA2F3B00919FE3 /* chengeChairUITests */,
+				C775945D1FEA2F3B00919FE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C775945D1FEA2F3B00919FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C775945C1FEA2F3B00919FE3 /* chengeChair.app */,
+				C77594701FEA2F3B00919FE3 /* chengeChairTests.xctest */,
+				C775947B1FEA2F3B00919FE3 /* chengeChairUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C775945E1FEA2F3B00919FE3 /* chengeChair */ = {
+			isa = PBXGroup;
+			children = (
+				C775945F1FEA2F3B00919FE3 /* AppDelegate.swift */,
+				C77594611FEA2F3B00919FE3 /* ViewController.swift */,
+				C77594631FEA2F3B00919FE3 /* Main.storyboard */,
+				C77594661FEA2F3B00919FE3 /* Assets.xcassets */,
+				C77594681FEA2F3B00919FE3 /* LaunchScreen.storyboard */,
+				C775946B1FEA2F3B00919FE3 /* Info.plist */,
+			);
+			path = chengeChair;
+			sourceTree = "<group>";
+		};
+		C77594731FEA2F3B00919FE3 /* chengeChairTests */ = {
+			isa = PBXGroup;
+			children = (
+				C77594741FEA2F3B00919FE3 /* chengeChairTests.swift */,
+				C77594761FEA2F3B00919FE3 /* Info.plist */,
+			);
+			path = chengeChairTests;
+			sourceTree = "<group>";
+		};
+		C775947E1FEA2F3B00919FE3 /* chengeChairUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C775947F1FEA2F3B00919FE3 /* chengeChairUITests.swift */,
+				C77594811FEA2F3B00919FE3 /* Info.plist */,
+			);
+			path = chengeChairUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C775945B1FEA2F3B00919FE3 /* chengeChair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77594841FEA2F3B00919FE3 /* Build configuration list for PBXNativeTarget "chengeChair" */;
+			buildPhases = (
+				C77594581FEA2F3B00919FE3 /* Sources */,
+				C77594591FEA2F3B00919FE3 /* Frameworks */,
+				C775945A1FEA2F3B00919FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chengeChair;
+			productName = chengeChair;
+			productReference = C775945C1FEA2F3B00919FE3 /* chengeChair.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C775946F1FEA2F3B00919FE3 /* chengeChairTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77594871FEA2F3B00919FE3 /* Build configuration list for PBXNativeTarget "chengeChairTests" */;
+			buildPhases = (
+				C775946C1FEA2F3B00919FE3 /* Sources */,
+				C775946D1FEA2F3B00919FE3 /* Frameworks */,
+				C775946E1FEA2F3B00919FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77594721FEA2F3B00919FE3 /* PBXTargetDependency */,
+			);
+			name = chengeChairTests;
+			productName = chengeChairTests;
+			productReference = C77594701FEA2F3B00919FE3 /* chengeChairTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C775947A1FEA2F3B00919FE3 /* chengeChairUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C775948A1FEA2F3B00919FE3 /* Build configuration list for PBXNativeTarget "chengeChairUITests" */;
+			buildPhases = (
+				C77594771FEA2F3B00919FE3 /* Sources */,
+				C77594781FEA2F3B00919FE3 /* Frameworks */,
+				C77594791FEA2F3B00919FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C775947D1FEA2F3B00919FE3 /* PBXTargetDependency */,
+			);
+			name = chengeChairUITests;
+			productName = chengeChairUITests;
+			productReference = C775947B1FEA2F3B00919FE3 /* chengeChairUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C77594541FEA2F3B00919FE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "hidekazu uenishi";
+				TargetAttributes = {
+					C775945B1FEA2F3B00919FE3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C775946F1FEA2F3B00919FE3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C775945B1FEA2F3B00919FE3;
+					};
+					C775947A1FEA2F3B00919FE3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C775945B1FEA2F3B00919FE3;
+					};
+				};
+			};
+			buildConfigurationList = C77594571FEA2F3B00919FE3 /* Build configuration list for PBXProject "chengeChair" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C77594531FEA2F3B00919FE3;
+			productRefGroup = C775945D1FEA2F3B00919FE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C775945B1FEA2F3B00919FE3 /* chengeChair */,
+				C775946F1FEA2F3B00919FE3 /* chengeChairTests */,
+				C775947A1FEA2F3B00919FE3 /* chengeChairUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C775945A1FEA2F3B00919FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C775946A1FEA2F3B00919FE3 /* LaunchScreen.storyboard in Resources */,
+				C77594671FEA2F3B00919FE3 /* Assets.xcassets in Resources */,
+				C77594651FEA2F3B00919FE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C775946E1FEA2F3B00919FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77594791FEA2F3B00919FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C77594581FEA2F3B00919FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77594621FEA2F3B00919FE3 /* ViewController.swift in Sources */,
+				C77594601FEA2F3B00919FE3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C775946C1FEA2F3B00919FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77594751FEA2F3B00919FE3 /* chengeChairTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77594771FEA2F3B00919FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77594801FEA2F3B00919FE3 /* chengeChairUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C77594721FEA2F3B00919FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C775945B1FEA2F3B00919FE3 /* chengeChair */;
+			targetProxy = C77594711FEA2F3B00919FE3 /* PBXContainerItemProxy */;
+		};
+		C775947D1FEA2F3B00919FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C775945B1FEA2F3B00919FE3 /* chengeChair */;
+			targetProxy = C775947C1FEA2F3B00919FE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C77594631FEA2F3B00919FE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77594641FEA2F3B00919FE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C77594681FEA2F3B00919FE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77594691FEA2F3B00919FE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C77594821FEA2F3B00919FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C77594831FEA2F3B00919FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C77594851FEA2F3B00919FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQYPYM59XG;
+				INFOPLIST_FILE = chengeChair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hidekazu-uenishi.chengeChair";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C77594861FEA2F3B00919FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQYPYM59XG;
+				INFOPLIST_FILE = chengeChair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hidekazu-uenishi.chengeChair";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C77594881FEA2F3B00919FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQYPYM59XG;
+				INFOPLIST_FILE = chengeChairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hidekazu-uenishi.chengeChairTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chengeChair.app/chengeChair";
+			};
+			name = Debug;
+		};
+		C77594891FEA2F3B00919FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQYPYM59XG;
+				INFOPLIST_FILE = chengeChairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hidekazu-uenishi.chengeChairTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chengeChair.app/chengeChair";
+			};
+			name = Release;
+		};
+		C775948B1FEA2F3B00919FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQYPYM59XG;
+				INFOPLIST_FILE = chengeChairUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hidekazu-uenishi.chengeChairUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chengeChair;
+			};
+			name = Debug;
+		};
+		C775948C1FEA2F3B00919FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQYPYM59XG;
+				INFOPLIST_FILE = chengeChairUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hidekazu-uenishi.chengeChairUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chengeChair;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C77594571FEA2F3B00919FE3 /* Build configuration list for PBXProject "chengeChair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77594821FEA2F3B00919FE3 /* Debug */,
+				C77594831FEA2F3B00919FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77594841FEA2F3B00919FE3 /* Build configuration list for PBXNativeTarget "chengeChair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77594851FEA2F3B00919FE3 /* Debug */,
+				C77594861FEA2F3B00919FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77594871FEA2F3B00919FE3 /* Build configuration list for PBXNativeTarget "chengeChairTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77594881FEA2F3B00919FE3 /* Debug */,
+				C77594891FEA2F3B00919FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C775948A1FEA2F3B00919FE3 /* Build configuration list for PBXNativeTarget "chengeChairUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C775948B1FEA2F3B00919FE3 /* Debug */,
+				C775948C1FEA2F3B00919FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C77594541FEA2F3B00919FE3 /* Project object */;
+}
